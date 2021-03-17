@@ -1,0 +1,55 @@
+{
+  "loadPlugins": ["@builder.io/plugin-shopify@dev"],
+  "customTargetingAttributes": {
+    "itemInCart": {
+      "type": "ShopifyProductHandle"
+    },
+    "collectionHandle": {
+      "type": "ShopifyCollectionHandle"
+    },
+    "locale": {
+      "type": "string",
+      "enum": ["en-US", "es"]
+    },
+    "productHandle": {
+      "type": "ShopifyProductHandle"
+    }
+  },
+  "settings": {
+    "plugins": {
+      "@builder.io/plugin-shopify": {
+        "storefrontAccessToken": "dd0057d1e48d2d61ca8ec27b07d3c5e6",
+        "apiKey": "14f064d7f94eeaadf93bd8690fca1207",
+        "storeDomain": "builder-io-demo.myshopify.com/",
+        "apiPassword": "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",
+        "syncPreviewUrlWithTargeting": true
+      }
+    },
+    "componentsOnlyMode": false,
+    "showSitePreviewTab": false,
+    "editorShowShopifyBlocks": false,
+    "allowBuiltInComponents": true,
+    "optimizeContentVisibility": true,
+    "reloadPreviewForMobile": false
+  },
+  "@version": 5,
+  "siteUrl": "https://headless.builders",
+  "name": "NextJS Shopify Space",
+  "cloneInfo": {
+    "contentIdMap": {
+      "2ff2162732634c548109ea15ffac439e": "979ead8ab38642cb9e4af0fc6d266d0d",
+      "a0fdc1246d5a414f96097bccd83df8cf": "4d1c85845d1542738d0983e91f4adde4",
+      "24a736d21fa9aa6dcae63bacad30827338d62ef2d06c49b3ef6cf954f7509a1b": "af23af75faf04581afedcb0dd3a85928",
+      "01cf07d29bfae5d1cd1d79e89775055b157054c04bc32eb08a813945bae112a7": "6f362196a8994130957d293ecb918a49",
+      "305a0edb85a20e908d05105ab640fba80c57bdc9ac548763a96b84998b97d97f": "6dfb279860194151b8efb4773b876710",
+      "63e0ed29cc5b3963df6ca7aea973bee1af21b7ee24661413466e43a99c37cb21": "8beec11409774b259fb52f850adf1cf0"
+    },
+    "modelIdMap": {
+      "67e94ebf439847799f211fd2ef9f98cc": "c776a70407824450aaf37a9dfde135e2",
+      "98571179689745e0ac542ba85dd66e92": "fbabc299e090451b8d1b405297e3ee38",
+      "7f9f177ee1b8e6fc95d1c321ee75f0296666eac56b1684a69796ff4cac91f38a": "e7527e05596545fc82efcc1d5e3bf779",
+      "20570a04bdd8a5052351fe9cb2fd5caf41763d4f44dba9e6385a9fff84dcdcf7": "ac20ade4039843c4acf49569e5ecb65b",
+      "74749846840337000adf33ad7fdb712b95330b74d3089e137083f66c11a0d8b3": "76279319415d497db8cc239349938302"
+    }
+  }
+}

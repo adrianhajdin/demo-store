@@ -1,0 +1,92 @@
+{
+  "@originContentId": "305a0edb85a20e908d05105ab640fba80c57bdc9ac548763a96b84998b97d97f",
+  "@originModelId": "20570a04bdd8a5052351fe9cb2fd5caf41763d4f44dba9e6385a9fff84dcdcf7",
+  "@originOrg": "9aa8825c0d33424ca3e9076c2cc4a328",
+  "createdBy": "agZ9n5CUKRfbL9t6CaJOyVSK4Es2",
+  "createdDate": 1611769584081,
+  "data": {
+    "collectionPreview": {
+      "@type": "@builder.io/core:Request",
+      "options": {
+        "collection": 246780657843
+      },
+      "request": {
+        "method": "GET",
+        "url": "https://cdn.builder.io/api/v1/shopify/collections/{{this.options.collection}}.json?apiKey=9aa8825c0d33424ca3e9076c2cc4a328"
+      }
+    },
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    },
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "bindings": {
+          "component.options.collection": "state.collection",
+          "component.options.renderSeo": "true"
+        },
+        "id": "builder-02434c3799094ba2a50eb11212e7e54c",
+        "component": {
+          "name": "CollectionView",
+          "options": {
+            "productGridOptions": {
+              "cardProps": {
+                "variant": "simple",
+                "imgPriority": true,
+                "imgLayout": "responsive",
+                "imgLoading": "eager",
+                "imgWidth": 440,
+                "imgHeight": 440,
+                "layout": "fixed"
+              },
+              "gridProps": {
+                "variant": "filled",
+                "layout": "normal"
+              },
+              "limit": 9,
+              "highlightCard": {
+                "index": null,
+                "variant": "simple",
+                "imgPriority": true
+              },
+              "offset": 0
+            }
+          }
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px"
+          }
+        }
+      }
+    ]
+  },
+  "id": "6dfb279860194151b8efb4773b876710",
+  "lastUpdated": 1612948484060,
+  "lastUpdatedBy": "agZ9n5CUKRfbL9t6CaJOyVSK4Es2",
+  "meta": {
+    "hasLinks": false,
+    "kind": "component",
+    "needsHydration": false,
+    "shopifyDomain": "builder-io-demo.myshopify.com/"
+  },
+  "modelId": "ac20ade4039843c4acf49569e5ecb65b",
+  "name": "generic collection",
+  "published": "published",
+  "query": [],
+  "rev": "ltblzpzzw7",
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F9aa8825c0d33424ca3e9076c2cc4a328%2F9c84aa35d8c54162ac7d2aa0a1708f53",
+  "testRatio": 1,
+  "variations": {},
+  "previewUrl": "https://headless.builders/collection/spring"
+}

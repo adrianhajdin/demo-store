@@ -1,0 +1,70 @@
+{
+  "@originContentId": "63e0ed29cc5b3963df6ca7aea973bee1af21b7ee24661413466e43a99c37cb21",
+  "@originModelId": "74749846840337000adf33ad7fdb712b95330b74d3089e137083f66c11a0d8b3",
+  "@originOrg": "9aa8825c0d33424ca3e9076c2cc4a328",
+  "createdBy": "agZ9n5CUKRfbL9t6CaJOyVSK4Es2",
+  "createdDate": 1610516058604,
+  "data": {
+    "inputs": [],
+    "preview": {
+      "@type": "@builder.io/core:Request",
+      "options": {
+        "product": 6206263558323
+      },
+      "request": {
+        "method": "GET",
+        "url": "https://cdn.builder.io/api/v1/shopify/products/{{this.options.product}}.json?apiKey=6e5b10afb1a9457ba648112d4c5d30e8"
+      }
+    },
+    "state": {
+      "deviceSize": "large",
+      "location": {
+        "path": "",
+        "query": {}
+      }
+    },
+    "blocks": [
+      {
+        "@type": "@builder.io/sdk:Element",
+        "@version": 2,
+        "bindings": {
+          "component.options.product": "state.product",
+          "component.options.title": "state.product.title",
+          "component.options.description": "state.product.descriptionHtml"
+        },
+        "id": "builder-0651a7f9080a46b2a5cf92ab47265e54",
+        "component": {
+          "name": "ProductView",
+          "options": {}
+        },
+        "responsiveStyles": {
+          "large": {
+            "display": "flex",
+            "flexDirection": "column",
+            "position": "relative",
+            "flexShrink": "0",
+            "boxSizing": "border-box",
+            "marginTop": "20px"
+          }
+        }
+      }
+    ]
+  },
+  "id": "8beec11409774b259fb52f850adf1cf0",
+  "lastUpdated": 1611873566299,
+  "lastUpdatedBy": "agZ9n5CUKRfbL9t6CaJOyVSK4Es2",
+  "meta": {
+    "hasLinks": false,
+    "kind": "component",
+    "needsHydration": false,
+    "shopifyDomain": "builder-io-demo.myshopify.com/"
+  },
+  "modelId": "76279319415d497db8cc239349938302",
+  "name": "Generic template",
+  "published": "published",
+  "query": [],
+  "rev": "pn8b9n3ozni",
+  "screenshot": "https://cdn.builder.io/api/v1/image/assets%2F6e5b10afb1a9457ba648112d4c5d30e8%2F52a6831152264f29a2b28166304a30d5",
+  "testRatio": 1,
+  "variations": {}
+}
